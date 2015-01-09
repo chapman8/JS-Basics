@@ -33,7 +33,10 @@ var getName = function() {
 //Create a function called welcome that uses your getName function you created in the previous problem to get the users name,
 //then alerts "Welcome, " plus whatever the users name is.
 
-  //Code Here
+var welcome = function() {
+  var userName = getName();
+  alert("Welcome, " + userName);
+};
 
 
 //Next problem
@@ -45,7 +48,15 @@ var getName = function() {
 //Save the result of the return value from your adder function, then alert "The Total Number was " + the number that was
 //returned from adder.
 
-  //Code Here
+var adder = function () {
+  var total = 0;
+  for (var i = 0; i < arguments.length; i++) {
+    total = total + arguments[i];
+  }
+  return total;
+  alert("The Total Number was " + total);
+};
+
 
 
 //Next Problem
