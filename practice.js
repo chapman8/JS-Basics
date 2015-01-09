@@ -65,7 +65,8 @@ var adder = function () {
 
 //What is the difference between arguments and parameters?
 
-  //Answer Here
+//A parameter goes into the definition of a function. 
+//The Parameter is then replaced with an argument when you call the function. 
 
 
 //Next problem
@@ -74,8 +75,19 @@ var adder = function () {
 
 //What are all the falsy values in JavaScript and how do you check if something is falsy?
 
+/*Falsy Value:
+false
+0 (zero)
+"" (empty string)
+null
+undefined
+NaN (a special Number value meaning Not-a-Number!)
 
-  //Answer Here
+To check if falsy:*/
+if (val !== false) {
+  alert("This is not a falsy")
+};
+
 
 
 
